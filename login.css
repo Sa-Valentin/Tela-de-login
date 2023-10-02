@@ -3,15 +3,15 @@
     position: relative;
     text-align: center;
     left: 37%;
-    background-color: rgb(181, 181, 181);
-    height: 350px;
+    background-color: rgb(215, 213, 213);
+    height: 500px;
     width: 350px;
     border-radius: 5px;
     margin-top: 11%;
-    box-shadow: 2px 3px black;
+    box-shadow: 2px 3px rgb(141, 141, 141);
 }
 
-#email,#senha{
+#input_email,#input_senha{
     position: relative;
     top: 10%;
     margin: 10px;
@@ -20,11 +20,54 @@
     border-radius: 4px;
     box-shadow: 1px 1px black;
 }
-#login_lab{
+#login_p{
     position: relative;
     text-align: center;
+    color: rgb(217, 102, 2);;
     top: 10%;
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#footer{
+    position: relative;
+    background-color: rgb(206, 206, 206);
+    margin-top: 20%;
+    height: 200px;
+    border-radius: 4px;
+}
+
+#redirecionador{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    left: 25%;
+    top: 10px;
+}
+
+#redirecionador:hover{
+    color: rgb(217, 102, 2);;
+}
+
+#btn_entrar{
+    position: relative;
+    top: 25%;
+    width: 150px;
+    height: 40px;
+}
+
+#registrar{
+    position: relative;
+    top: 35%;
+}
+
+#barra_menu{
+    position: relative;
+    height: 100px;
+    width: 800px;
+    left: 20%;
+    background-color: rgb(206, 206, 206);
+    border-radius: 4px;
+}
