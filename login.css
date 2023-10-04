@@ -2,7 +2,7 @@
 #div_dados{
     position: relative;
     text-align: center;
-    left: 37%;
+    left: 40%;
     background-color: rgb(215, 213, 213);
     height: 500px;
     width: 350px;
@@ -18,6 +18,7 @@
     width: 250px;
     height: 25px;
     border-radius: 4px;
+    
     box-shadow: 1px 1px black;
 }
 #login_p{
@@ -44,11 +45,11 @@
     margin-left: 20px;
     font-size: 20px;
     left: 25%;
-    top: 10px;
+    top: 20%;
 }
 
 #redirecionador:hover{
-    color: rgb(217, 102, 2);;
+    color: rgb(217, 102, 2);
 }
 
 #btn_entrar{
@@ -56,6 +57,19 @@
     top: 25%;
     width: 150px;
     height: 40px;
+}
+#btn_entrar:hover{
+    margin-bottom: -5px;
+    top:24%;
+    width: 155px;
+    height: 45px;
+    transition: all 0.2s;
+}
+#btn_entrar:not(:hover){
+    top: 25%;
+    width: 150px;
+    height: 40px;
+    transition: all 0.2s;
 }
 
 #registrar{
@@ -67,7 +81,109 @@
     position: relative;
     height: 100px;
     width: 800px;
-    left: 20%;
+    left: 24%;
     background-color: rgb(206, 206, 206);
     border-radius: 4px;
+}
+
+#registrar-se{
+    color: rgb(1, 154, 250);
+    text-decoration: none;
+    margin-left: 2px;
+}
+#registrar-se:hover{
+    color: rgb(1, 154, 250);
+    background-color: rgb(53, 53, 53);
+    border-radius: 5px;
+}
+
+#tela_principal{
+    position: relative;
+    left: 5%;
+    top: 60%;
+}
+
+#txt_telaPrincipal{
+    position: relative;
+    left: 9%;
+    top: 25%;
+}
+
+#barra{
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+    margin-right: 15%;
+}
+#carrinho{
+    position: relative;
+    right: 33%;
+    bottom: 10%;
+}
+#txt_carrinho{
+    position: relative;
+    left: 27%;
+    bottom: 45%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#promocao{
+    position: relative;
+    left: 40%;
+    bottom: 80%;
+}
+#txt_promocao{
+    position: relative;
+    left: 45%;
+    bottom: 115%;
+}
+#pesquisar{
+    position: relative;
+    left: 58%;
+    bottom: 151%;
+}
+#pesquisar_input{
+    position: relative;
+    left: 61%;
+    bottom: 160%;
+    width: 250px;
+    height: 17px;
+    border-radius: 5px;
+}
+#icon-s{
+    position: relative;
+    bottom: 200%;
+    left: 10%;
+}
+#gmail{
+    position: relative;
+    top: 52%;
+    right: 15%;
+}
+#github{
+    position: relative;
+    top: 52%;
+    right: 10%;
+}
+#linkedin{
+    position: relative;
+    top: 52%;
+    right: 5%;
+}
+#barra_footer{
+    position: relative;
+    top: 23%;
+    right: 20.8%;
+}
+#barra_footer2{
+    position: relative;
+    top: 23%;
+    right: 8.4%;
+}
+#barra_footer3{
+    position: relative;
+    top: 23%;
+    right: 0.5%;
 }
